@@ -5,7 +5,6 @@
 :root {
 	--background: #ffffff;
 	--foreground: #171717;
-	--vh: 100%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +19,7 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-	box-sizing: inherit;
+	box-sizing: border-box;
 	font-family: sans-serif;
 	min-height: 100%; /* Ensure the body spans at least the full viewport height */
 }
