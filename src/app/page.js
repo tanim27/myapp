@@ -1,6 +1,7 @@
 const HomePage = () => (
-	<div className='flex justify-center items-center min-h-screen bg-gray-200'>
-		<div className='flex flex-col'>
+	<div className='flex justify-center items-center flex-grow'>
+		<div className='text-center'>
+			<h1 className='text-4xl font-bold'>Home</h1>
 			<h1 className='text-4xl font-bold'>Home</h1>
 			<h1 className='text-4xl font-bold'>Home</h1>
 		</div>
