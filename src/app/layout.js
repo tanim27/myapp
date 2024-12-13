@@ -7,14 +7,14 @@ export const metadata = {
 
 const RootLayout = ({ children }) => (
 	<html lang='en'>
-		<body className='flex flex-col'>
+		<body className='flex flex-col min-h-screen'>
 			<header className='bg-gray-100 text-black py-4'>
 				<h1 className='text-center text-lg'>Empress Origin</h1>
 			</header>
 
 			<main className='bg-gray-200 text-red-300 flex-grow'>{children}</main>
 
-			<footer className='bg-gray-100 text-black py-4 mt-auto'>
+			<footer className='bg-gray-100 text-black py-4'>
 				<p className='text-center text-sm text-black'>
 					© 2024 Empress Origin. All Rights Reserved.
 				</p>
