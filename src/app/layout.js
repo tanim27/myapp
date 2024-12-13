@@ -7,12 +7,12 @@ export const metadata = {
 
 const RootLayout = ({ children }) => (
 	<html lang='en'>
-		<body className='flex flex-col min-h-screen'>
+		<body className='flex flex-col'>
 			<header className='bg-gray-100 text-black py-4'>
-				<h1 className='text-center text-lg '>Empress Origin</h1>
+				<h1 className='text-center text-lg'>Empress Origin</h1>
 			</header>
 
-			<main className='bg-gray-200 text-black flex-grow'>{children}</main>
+			<main className='bg-gray-200 text-red-300 flex-grow'>{children}</main>
 
 			<footer className='bg-gray-100 text-black py-4 mt-auto'>
 				<p className='text-center text-sm text-black'>
