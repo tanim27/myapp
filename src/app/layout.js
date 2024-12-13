@@ -13,7 +13,7 @@ const RootLayout = ({ children }) => (
 			</header>
 
 			{/* Main content should flex-grow */}
-			<main className='flex-grow bg-gray-200 text-red-500'>{children}</main>
+			<main className='flex-grow bg-gray-200 text-red-700'>{children}</main>
 
 			<footer className='bg-gray-100 text-black py-4'>
 				<p className='text-center text-sm text-black'>
